@@ -1,0 +1,613 @@
+{
+  "Ares Seiki": {
+    "models": ["AF5040"],
+    "specs": {
+      "AF5040": {
+        "image": "images/af5040.webp",
+        "data": {
+          "Machine Type": "5-Axis Vertical Machining Center",
+          "Table Size": "500 × 400 mm",
+          "Travel (X/Y/Z)": "510 / 410 / 410 mm",
+          "Spindle Speed": "12,000 rpm",
+          "Spindle Type": "BT40",
+          "Spindle Power": "15 kW",
+          "Control System": "Siemens 828D",
+          "Tool Magazine Capacity": "24 tools",
+          "A-axis Range": "-120° to +30°",
+          "C-axis Range": "360° continuous",
+          "Rapid Traverse (X/Y/Z)": "48 / 48 / 48 m/min",
+          "Max Workpiece Weight": "300 kg",
+          "Positioning Accuracy": "±0.005 mm",
+          "Repeatability": "±0.003 mm",
+          "Machine Weight": "6,500 kg",
+          "Floor Space": "2,800 × 2,800 mm",
+          "Power Requirement": "35 kVA",
+          "Coolant System": "Flood coolant standard",
+          "Manufacturer Website": "https://www.ares-seiki.com",
+          "Key Features": "Bridge-type construction, direct drive motors",
+          "Applications": "Precision molds, medical components, aerospace parts"
+        }
+      }
+    }
+  },
+  "DMG": {
+    "models": ["DMU65", "DMU95", "NVX5100", "DMU50"],
+    "specs": {
+      "DMU65": {
+        "image": "images/dmu65.webp",
+        "data": {
+          "Machine Type": "5-Axis Universal Machining Center",
+          "Table Size": "Ø650 mm",
+          "Travel (X/Y/Z)": "650 / 650 / 550 mm",
+          "Spindle Speed": "20,000 rpm",
+          "Spindle Type": "HSK-A63",
+          "Spindle Power": "35 kW",
+          "Control System": "Siemens 840D sl or Heidenhain TNC 640",
+          "Tool Magazine Capacity": "60 tools (expandable to 180)",
+          "A-axis Range": "-5° to +110°",
+          "C-axis Range": "360° continuous",
+          "Rapid Traverse (X/Y/Z)": "40 / 40 / 30 m/min",
+          "Max Workpiece Weight": "800 kg",
+          "Positioning Accuracy": "±0.003 mm",
+          "Repeatability": "±0.002 mm",
+          "Machine Construction": "monoBLOCK cast iron",
+          "Floor Space": "4,800 × 3,900 mm",
+          "Power Requirement": "65 kVA",
+          "Cooling System": "Coolant through spindle (80 bar optional)",
+          "Manufacturer Website": "https://en.dmgmori.com/products/machines/milling/universal-milling-machines/dmu-65-mono-block",
+          "Special Features": "Direct measuring systems, temperature compensation",
+          "Applications": "Aerospace, medical implants, precision molds"
+        }
+      },
+      "DMU95": {
+        "image": "images/dmu95.webp",
+        "data": {
+          "Machine Type": "5-Axis Universal Machining Center",
+          "Table Size": "Ø950 mm",
+          "Travel (X/Y/Z)": "950 / 850 / 650 mm",
+          "Spindle Speed": "18,000 rpm (24,000 rpm optional)",
+          "Spindle Type": "HSK-A100",
+          "Spindle Power": "45 kW",
+          "Control System": "Siemens 840D sl",
+          "Tool Magazine Capacity": "60 tools",
+          "A-axis Range": "-5° to +110°",
+          "C-axis Range": "360° continuous",
+          "Rapid Traverse (X/Y/Z)": "40 / 40 / 30 m/min",
+          "Max Workpiece Weight": "1,200 kg",
+          "Positioning Accuracy": "±0.004 mm",
+          "Repeatability": "±0.003 mm",
+          "Machine Weight": "18,500 kg",
+          "Floor Space": "5,200 × 4,500 mm",
+          "Power Requirement": "80 kVA",
+          "Coolant Pressure": "70 bar standard",
+          "Manufacturer Website": "https://en.dmgmori.com/products/machines/milling/universal-milling-machines/dmu-95-mono-block",
+          "Special Features": "Direct drive rotary axes, thermo-symmetric design",
+          "Applications": "Large molds, aerospace frames, energy components"
+        }
+      },
+      "NVX5100": {
+        "image": "images/nvx5100.webp",
+        "data": {
+          "Machine Type": "Vertical Machining Center (2nd Gen)",
+          "Table Size": "1,100 × 510 mm",
+          "Travel (X/Y/Z)": "1,020 / 510 / 510 mm",
+          "Spindle Speed": "15,000 rpm (20,000 rpm optional)",
+          "Spindle Type": "BT40",
+          "Spindle Power": "22 kW",
+          "Control System": "CELOS with Siemens 828D",
+          "Tool Magazine Capacity": "40 tools",
+          "Rapid Traverse (X/Y/Z)": "48 / 48 / 48 m/min",
+          "Cutting Feedrate": "1-30,000 mm/min",
+          "Max Workpiece Weight": "700 kg",
+          "Positioning Accuracy": "±0.003 mm",
+          "Repeatability": "±0.002 mm",
+          "Machine Weight": "7,200 kg",
+          "Floor Space": "3,200 × 2,800 mm",
+          "Power Requirement": "38 kVA",
+          "Coolant System": "Flood coolant with chip conveyor",
+          "Manufacturer Website": "https://en.dmgmori.com/products/machines/milling/vertical-machining-centers/nvx-5100-2nd-generation",
+          "Key Features": "Direct drive spindle, linear scales on all axes",
+          "Applications": "High-speed machining, die/mold, precision parts"
+        }
+      },
+      "DMU50": {
+        "image": "images/dmu50.webp",
+        "data": {
+          "Machine Type": "5-Axis Universal Machining Center",
+          "Table Size": "Ø500 mm",
+          "Travel (X/Y/Z)": "500 / 450 / 400 mm",
+          "Spindle Speed": "20,000 rpm (25,000 rpm optional)",
+          "Spindle Type": "HSK-A63",
+          "Spindle Power": "25 kW",
+          "Control System": "CELOS with Siemens 828D or Heidenhain TNC 620",
+          "Tool Magazine Capacity": "30 tools (60 optional)",
+          "A-axis Range": "-5° to +110°",
+          "C-axis Range": "360° continuous",
+          "Rapid Traverse (X/Y/Z)": "30 / 30 / 30 m/min",
+          "Max Workpiece Weight": "500 kg",
+          "Positioning Accuracy": "±0.004 mm",
+          "Repeatability": "±0.003 mm",
+          "Machine Weight": "6,800 kg",
+          "Floor Space": "3,800 × 3,200 mm",
+          "Power Requirement": "35 kVA",
+          "Coolant Pressure": "40 bar standard",
+          "Manufacturer Website": "https://en.dmgmori.com/products/machines/milling/universal-milling-machines/dmu-50-3rd-generation",
+          "Entry-Level Features": "5-axis capability at 3-axis price",
+          "Applications": "Education, job shops, prototype development"
+        }
+      }
+    }
+  },
+  "Doosan": {
+    "models": ["DNM500HS", "DNM750L", "MYNX9500"],
+    "specs": {
+      "DNM500HS": {
+        "image": "images/dnm500hs.webp",
+        "data": {
+          "Machine Type": "High-Speed Vertical Machining Center",
+          "Table Size": "1,100 × 500 mm",
+          "Travel (X/Y/Z)": "1,020 / 510 / 510 mm",
+          "Spindle Speed": "15,000 rpm (20,000 rpm optional)",
+          "Spindle Type": "BT40",
+          "Spindle Power": "18.5 kW",
+          "Control System": "FANUC 0i-MF or Siemens 828D",
+          "Tool Magazine Capacity": "30 tools (60 optional)",
+          "Rapid Traverse (X/Y/Z)": "48 / 48 / 48 m/min",
+          "Cutting Feedrate": "1-30,000 mm/min",
+          "Max Workpiece Weight": "800 kg",
+          "Positioning Accuracy": "±0.003 mm",
+          "Repeatability": "±0.0015 mm",
+          "Machine Weight": "7,200 kg",
+          "Floor Space": "3,200 × 2,800 mm",
+          "Power Requirement": "38 kVA",
+          "Coolant Pressure": "70 bar optional",
+          "Manufacturer Website": "https://www.doosanmachinetools.com",
+          "Special Features": "High-speed roller guideways, dual cooling system",
+          "Applications": "High-speed machining, mold making, production parts"
+        }
+      },
+      "DNM750L": {
+        "image": "images/dnm750l.webp",
+        "data": {
+          "Machine Type": "Large Vertical Machining Center",
+          "Table Size": "1,400 × 750 mm",
+          "Travel (X/Y/Z)": "1,220 / 610 / 610 mm",
+          "Spindle Speed": "10,000 rpm (12,000 rpm optional)",
+          "Spindle Type": "BT50",
+          "Spindle Power": "30 kW",
+          "Control System": "FANUC 31i-B5",
+          "Tool Magazine Capacity": "40 tools",
+          "Rapid Traverse (X/Y/Z)": "36 / 36 / 30 m/min",
+          "Cutting Feedrate": "1-20,000 mm/min",
+          "Max Workpiece Weight": "1,500 kg",
+          "Positioning Accuracy": "±0.005 mm",
+          "Repeatability": "±0.003 mm",
+          "Machine Weight": "12,500 kg",
+          "Floor Space": "4,200 × 3,500 mm",
+          "Power Requirement": "55 kVA",
+          "Coolant System": "Flood coolant with chip conveyor",
+          "Manufacturer Website": "https://www.doosanmachinetools.com",
+          "Key Features": "Heavy-duty construction, high torque spindle",
+          "Applications": "Large molds, dies, heavy cutting applications"
+        }
+      },
+      "MYNX9500": {
+        "image": "images/mynx9500.webp",
+        "data": {
+          "Machine Type": "5-Axis Multi-Tasking Machine",
+          "Turning Diameter": "Ø300 mm",
+          "Turning Length": "600 mm",
+          "Milling Spindle Speed": "12,000 rpm",
+          "Turning Spindle Speed": "4,000 rpm",
+          "Milling Spindle Power": "18.5 kW",
+          "Turning Spindle Power": "22 kW",
+          "Control System": "FANUC 31i-B5",
+          "Tool Stations": "12 tools (milling) + 8 tools (turning)",
+          "Y-axis Travel": "±150 mm",
+          "B-axis Range": "-30° to +120°",
+          "Bar Capacity": "Ø51 mm",
+          "Chuck Size": "6\" hydraulic",
+          "Rapid Traverse": "30 m/min",
+          "Machine Weight": "8,500 kg",
+          "Power Requirement": "45 kVA",
+          "Manufacturer Website": "https://www.doosanmachinetools.com",
+          "Key Feature": "Single setup complete machining",
+          "Applications": "Complex shafts, valve bodies, multi-operation parts"
+        }
+      }
+    }
+  },
+  "FFG DMC": {
+    "models": ["DVD5200"],
+    "specs": {
+      "DVD5200": {
+        "image": "",
+        "data": {
+          "Machine Type": "5-Axis Vertical Machining Center",
+          "Table Size": "2,000 × 1,000 mm",
+          "Travel (X/Y/Z)": "2,000 / 1,000 / 800 mm",
+          "Spindle Speed": "12,000 rpm",
+          "Spindle Type": "HSK-A100",
+          "Spindle Power": "45 kW",
+          "Control System": "Siemens 840D sl",
+          "Tool Magazine Capacity": "80 tools",
+          "A-axis Range": "-5° to +110°",
+          "C-axis Range": "360° continuous",
+          "Rapid Traverse (X/Y/Z)": "36 / 36 / 30 m/min",
+          "Max Workpiece Weight": "5,000 kg",
+          "Positioning Accuracy": "±0.006 mm",
+          "Repeatability": "±0.004 mm",
+          "Machine Weight": "28,000 kg",
+          "Floor Space": "6,500 × 5,200 mm",
+          "Power Requirement": "85 kVA",
+          "Coolant Pressure": "70 bar standard",
+          "Manufacturer Website": "https://www.ffg-dmc.com",
+          "Key Features": "Double column design, box ways, thermal compensation",
+          "Applications": "Large aerospace components, wind energy parts, industrial molds"
+        }
+      }
+    }
+  },
+  "Fanuc": {
+    "models": ["Robodrill α-D21LiB5", "Robocut α-C600iB"],
+    "specs": {
+      "Robodrill α-D21LiB5": {
+        "image": "images/robodrill-d21lib5.webp",
+        "data": {
+          "Machine Type": "High-Speed Vertical Machining Center",
+          "Table Size": "420 × 320 mm",
+          "Travel (X/Y/Z)": "400 / 300 / 300 mm",
+          "Spindle Speed": "24,000 rpm",
+          "Spindle Type": "BT30",
+          "Spindle Power": "11 kW",
+          "Control System": "FANUC 31i-B5",
+          "Tool Magazine Capacity": "21 tools",
+          "Rapid Traverse (X/Y/Z)": "48 / 48 / 48 m/min",
+          "Cutting Feedrate": "1-30,000 mm/min",
+          "Max Workpiece Weight": "150 kg",
+          "Positioning Accuracy": "±0.003 mm",
+          "Repeatability": "±0.0015 mm",
+          "Machine Weight": "2,800 kg",
+          "Floor Space": "1,800 × 2,100 mm",
+          "Power Requirement": "15 kVA",
+          "Coolant System": "Flood coolant standard",
+          "Spindle Cooling": "Oil-air lubrication",
+          "Manufacturer Website": "https://www.fanuc.co.jp/en/product/cnc/robodrill",
+          "Key Features": "High acceleration (1.5G), fast tool change (0.9 sec)",
+          "Applications": "Small precision parts, electronics, medical devices"
+        }
+      },
+      "Robocut α-C600iB": {
+        "image": "images/robocut-c600ib.webp",
+        "data": {
+          "Machine Type": "Wire EDM (Electrical Discharge Machine)",
+          "Work Tank Dimensions": "750 × 550 × 300 mm",
+          "Max Workpiece Dimensions": "600 × 450 × 250 mm",
+          "Max Workpiece Weight": "400 kg",
+          "Wire Diameter Range": "Ø0.1 - 0.3 mm",
+          "Wire Feed Speed": "0-20 m/min",
+          "Control System": "FANUC 31i-WB",
+          "Generator Type": "Advanced AI-CONTOUR",
+          "Max Cutting Speed": "≥500 mm²/min (hard steel)",
+          "Surface Roughness": "Ra ≤ 0.8 μm",
+          "Positioning Accuracy": "±0.002 mm",
+          "Repeatability": "±0.001 mm",
+          "Table Travel (X/Y)": "400 × 300 mm",
+          "U/V Axis Travel": "±60 × ±60 mm",
+          "Machine Weight": "3,200 kg",
+          "Power Requirement": "12 kVA",
+          "Dielectric Fluid": "Deionized water system",
+          "Manufacturer Website": "https://www.fanuc.co.jp/en/product/edm/robocut",
+          "Special Features": "Anti-electrolysis power supply, automatic wire threading",
+          "Applications": "Precision dies, aerospace components, medical tools"
+        }
+      }
+    }
+  },
+  "Hartford": {
+    "models": ["Aero-426"],
+    "specs": {
+      "Aero-426": {
+        "image": "images/aero-426.webp",
+        "data": {
+          "Machine Type": "5-Axis Vertical Machining Center",
+          "Table Size": "1,000 × 500 mm",
+          "Travel (X/Y/Z)": "1,020 / 510 / 510 mm",
+          "Spindle Speed": "12,000 rpm (15,000 rpm optional)",
+          "Spindle Type": "BT40",
+          "Spindle Power": "15 kW",
+          "Control System": "Siemens 828D or FANUC 0i-MF",
+          "Tool Magazine Capacity": "24 tools",
+          "A-axis Range": "-120° to +30°",
+          "C-axis Range": "360° continuous",
+          "Rapid Traverse (X/Y/Z)": "48 / 48 / 48 m/min",
+          "Max Workpiece Weight": "500 kg",
+          "Positioning Accuracy": "±0.005 mm",
+          "Repeatability": "±0.003 mm",
+          "Machine Weight": "7,800 kg",
+          "Floor Space": "3,000 × 2,800 mm",
+          "Power Requirement": "35 kVA",
+          "Coolant System": "Flood coolant standard",
+          "Manufacturer Website": "https://www.hartford.com.tw",
+          "Key Features": "Bridge-type design, thermal stability",
+          "Applications": "Aerospace components, medical implants, precision molds"
+        }
+      }
+    }
+  },
+  "Hwacheon": {
+    "models": ["Sirius 650"],
+    "specs": {
+      "Sirius 650": {
+        "image": "images/sirius-650.webp",
+        "data": {
+          "Machine Type": "High-Precision Vertical Machining Center",
+          "Table Size": "1,300 × 650 mm",
+          "Travel (X/Y/Z)": "1,020 / 510 / 510 mm",
+          "Spindle Speed": "12,000 rpm (15,000 rpm optional)",
+          "Spindle Type": "BT40",
+          "Spindle Power": "18.5 kW",
+          "Control System": "FANUC 0i-MF or Siemens 828D",
+          "Tool Magazine Capacity": "30 tools",
+          "Rapid Traverse (X/Y/Z)": "48 / 48 / 48 m/min",
+          "Cutting Feedrate": "1-30,000 mm/min",
+          "Max Workpiece Weight": "800 kg",
+          "Positioning Accuracy": "±0.002 mm",
+          "Repeatability": "±0.001 mm",
+          "Machine Weight": "8,500 kg",
+          "Floor Space": "3,200 × 2,800 mm",
+          "Power Requirement": "38 kVA",
+          "Coolant System": "High-pressure coolant optional",
+          "Manufacturer Website": "https://www.hwacheon.com",
+          "Special Features": "Thermo-symmetric design, polymer concrete base",
+          "Applications": "Precision machining, die/mold, medical components"
+        }
+      }
+    }
+  },
+  "Mazak": {
+    "models": ["VRX i500", "VRX730", "VCN530C", "Integrex i-400", "Variaxis i-800"],
+    "specs": {
+      "VRX i500": {
+        "image": "images/vrx-i500.webp",
+        "data": {
+          "Machine Type": "5-Axis Vertical Machining Center",
+          "Table Size": "500 × 500 mm",
+          "Travel (X/Y/Z)": "510 / 510 / 510 mm",
+          "Spindle Speed": "12,000 rpm",
+          "Spindle Type": "BT40",
+          "Spindle Power": "18.5 kW",
+          "Control System": "Mazatrol SmoothX",
+          "Tool Magazine Capacity": "30 tools (60 optional)",
+          "Max Tool Length": "300 mm",
+          "Max Tool Weight": "8 kg",
+          "Rapid Traverse (X/Y/Z)": "50 / 50 / 50 m/min",
+          "Cutting Feedrate": "1-20,000 mm/min",
+          "Accuracy (Positioning)": "±0.003 mm",
+          "Machine Weight": "7,500 kg",
+          "Power Requirement": "40 kVA",
+          "Coolant System": "Flood coolant standard",
+          "Optional Features": "TSR (Tool Strike Rescue), Thermoshield, Through-spindle coolant",
+          "Manufacturer Website": "https://www.mazakusa.com/machines/vrx-i500/",
+          "Common Applications": "Aerospace components, medical implants, mold making"
+        }
+      },
+      "VRX730": {
+        "image": "images/vrx730.webp",
+        "data": {
+          "Machine Type": "5-Axis Vertical Machining Center",
+          "Table Size": "730 × 730 mm",
+          "Travel (X/Y/Z)": "730 / 730 / 730 mm",
+          "Spindle Speed": "12,000 rpm (18,000 rpm optional)",
+          "Spindle Type": "BT40",
+          "Spindle Power": "22 kW",
+          "Control System": "Mazatrol SmoothX",
+          "Tool Magazine Capacity": "40 tools",
+          "Rapid Traverse (X/Y/Z)": "48 / 48 / 48 m/min",
+          "A-axis Range": "+30° to -120°",
+          "C-axis Range": "360° continuous",
+          "Max Workpiece Weight": "500 kg",
+          "Accuracy (Positioning)": "±0.002 mm",
+          "Repeatability": "±0.001 mm",
+          "Machine Dimensions": "3,200 × 3,500 × 3,100 mm",
+          "Power Requirement": "45 kVA",
+          "Manufacturer Website": "https://www.mazakusa.com/machines/vrx730/",
+          "Industry Applications": "Complex 5-axis parts, impellers, turbine blades"
+        }
+      },
+      "VCN530C": {
+        "image": "images/vcn530c.webp",
+        "data": {
+          "Machine Type": "Vertical Machining Center",
+          "Table Size": "1,300 × 550 mm",
+          "Travel (X/Y/Z)": "1,020 / 510 / 510 mm",
+          "Spindle Speed": "12,000 rpm",
+          "Spindle Type": "CAT40",
+          "Spindle Power": "15 kW",
+          "Control System": "Mazatrol SmoothG",
+          "Tool Magazine Capacity": "30 tools",
+          "Rapid Traverse (X/Y/Z)": "36 / 36 / 30 m/min",
+          "Cutting Feedrate": "1-15,000 mm/min",
+          "Max Workpiece Weight": "800 kg",
+          "Accuracy (Positioning)": "±0.005 mm",
+          "Repeatability": "±0.003 mm",
+          "Machine Weight": "6,800 kg",
+          "Power Requirement": "35 kVA",
+          "Coolant Capacity": "250 L",
+          "Pallet System": "Optional 2-pallet changer",
+          "Manufacturer Website": "https://www.mazakusa.com/machines/vcn-series/",
+          "Common Uses": "General machining, die/mold work, production parts"
+        }
+      },
+      "Integrex i-400": {
+        "image": "images/integrex-i400.webp",
+        "data": {
+          "Machine Type": "Multi-tasking Mill-Turn Center",
+          "Turning Diameter": "Ø400 mm",
+          "Turning Length": "1,000 mm",
+          "Milling Spindle Speed": "12,000 rpm",
+          "Turning Spindle Speed": "5,000 rpm",
+          "Milling Spindle Power": "22 kW",
+          "Turning Spindle Power": "30 kW",
+          "Control System": "Mazatrol SmoothX",
+          "Tool Stations": "12 tools (milling) + 12 tools (turning)",
+          "Y-axis Travel": "±150 mm",
+          "B-axis Range": "-30° to +120°",
+          "C-axis (Turning)": "360° continuous",
+          "Bar Capacity": "Ø65 mm",
+          "Chuck Size": "8\" (optional 10\")",
+          "Rapid Traverse": "30 m/min",
+          "Machine Weight": "15,000 kg",
+          "Power Requirement": "70 kVA",
+          "Manufacturer Website": "https://www.mazakusa.com/machines/integrex-i-400/",
+          "Key Feature": "Single setup complete part processing",
+          "Applications": "Complex shafts, valve bodies, aerospace fittings"
+        }
+      },
+      "Variaxis i-800": {
+        "image": "images/variaxis-i800.webp",
+        "data": {
+          "Machine Type": "Full 5-Axis Vertical Machining Center",
+          "Table Size": "Ø800 mm",
+          "Travel (X/Y/Z)": "1,020 / 810 / 610 mm",
+          "Spindle Speed": "18,000 rpm (25,000 rpm optional)",
+          "Spindle Type": "BT40",
+          "Spindle Power": "30 kW",
+          "Control System": "Mazatrol SmoothX",
+          "Tool Magazine Capacity": "60 tools",
+          "A-axis Range": "+30° to -120°",
+          "C-axis Range": "360° continuous",
+          "Rapid Traverse (X/Y/Z)": "50 / 50 / 50 m/min",
+          "Max Workpiece Weight": "1,000 kg",
+          "Accuracy (Positioning)": "±0.002 mm",
+          "Repeatability": "±0.001 mm",
+          "Machine Dimensions": "4,500 × 3,800 × 3,500 mm",
+          "Power Requirement": "60 kVA",
+          "Cooling System": "Chiller unit standard",
+          "Manufacturer Website": "https://www.mazakusa.com/machines/variaxis-i-800/",
+          "Special Features": "Direct drive motors, thermosymmetric design",
+          "Applications": "Large complex parts, aerospace structural components"
+        }
+      }
+    }
+  },
+  "TongTai": {
+    "models": ["TMV1600"],
+    "specs": {
+      "TMV1600": {
+        "image": "images/tmv1600.webp",
+        "data": {
+          "Machine Type": "Large Vertical Machining Center",
+          "Table Size": "1,800 × 800 mm",
+          "Travel (X/Y/Z)": "1,600 / 800 / 700 mm",
+          "Spindle Speed": "8,000 rpm (10,000 rpm optional)",
+          "Spindle Type": "BT50",
+          "Spindle Power": "37 kW",
+          "Control System": "FANUC 31i-B5 or Siemens 840D sl",
+          "Tool Magazine Capacity": "40 tools (60 optional)",
+          "Rapid Traverse (X/Y/Z)": "30 / 30 / 24 m/min",
+          "Cutting Feedrate": "1-15,000 mm/min",
+          "Max Workpiece Weight": "3,000 kg",
+          "Positioning Accuracy": "±0.008 mm",
+          "Repeatability": "±0.005 mm",
+          "Machine Weight": "18,000 kg",
+          "Floor Space": "4,800 × 3,800 mm",
+          "Power Requirement": "65 kVA",
+          "Coolant System": "Flood coolant with chip conveyor",
+          "Manufacturer Website": "https://www.tongtai.com.tw",
+          "Key Features": "Heavy-duty construction, box ways on X/Y axes",
+          "Applications": "Large molds, heavy parts, energy industry components"
+        }
+      }
+    }
+  },
+  "Tornos": {
+    "models": ["Swiss DecoT"],
+    "specs": {
+      "Swiss DecoT": {
+        "image": "images/swiss-decoto.webp",
+        "data": {
+          "Machine Type": "Swiss-type Automatic Lathe",
+          "Max Bar Diameter": "Ø32 mm",
+          "Number of Axes": "13 axes",
+          "Main Spindle Speed": "12,000 rpm",
+          "Counter Spindle Speed": "12,000 rpm",
+          "Spindle Power": "7.5 kW",
+          "Control System": "TORNOS TISIS",
+          "Guide Bushing": "Fixed GB or rotating GB optional",
+          "Tool Stations": "20+ tool positions",
+          "Live Tooling": "8 positions with C-axis",
+          "Y-axis Capability": "Yes, for off-center drilling",
+          "Rapid Traverse": "30 m/min",
+          "Machine Weight": "4,800 kg",
+          "Power Requirement": "25 kVA",
+          "Coolant System": "High-pressure coolant",
+          "Manufacturer Website": "https://www.tornos.com",
+          "Key Features": "Simultaneous machining, multi-spindle capability",
+          "Applications": "Medical screws, electronic connectors, precision turned parts"
+        }
+      }
+    }
+  },
+  "UGINT": {
+    "models": ["UM 500DH"],
+    "specs": {
+      "UM 500DH": {
+        "image": "images/um-500dh.webp",
+        "data": {
+          "Machine Type": "Double-Column 5-Axis Machining Center",
+          "Table Size": "1,400 × 800 mm",
+          "Travel (X/Y/Z)": "1,200 / 800 / 700 mm",
+          "Spindle Speed": "12,000 rpm (15,000 rpm optional)",
+          "Spindle Type": "HSK-A63",
+          "Spindle Power": "30 kW",
+          "Control System": "Heidenhain TNC 640",
+          "Tool Magazine Capacity": "60 tools",
+          "A-axis Range": "-5° to +110°",
+          "C-axis Range": "360° continuous",
+          "Rapid Traverse (X/Y/Z)": "40 / 40 / 30 m/min",
+          "Max Workpiece Weight": "2,500 kg",
+          "Positioning Accuracy": "±0.005 mm",
+          "Repeatability": "±0.003 mm",
+          "Machine Weight": "22,000 kg",
+          "Floor Space": "5,200 × 4,200 mm",
+          "Power Requirement": "75 kVA",
+          "Coolant Pressure": "80 bar optional",
+          "Manufacturer Website": "https://www.ugint.com",
+          "Special Features": "Double column design, high rigidity",
+          "Applications": "Aerospace structural parts, wind energy components"
+        }
+      }
+    }
+  },
+  "Victor Taichung": {
+    "models": ["Vturn"],
+    "specs": {
+      "Vturn": {
+        "image": "images/vturn.webp",
+        "data": {
+          "Machine Type": "CNC Turning Center",
+          "Max Turning Diameter": "Ø420 mm",
+          "Max Turning Length": "1,000 mm",
+          "Spindle Speed": "4,500 rpm",
+          "Spindle Power": "30 kW",
+          "Spindle Bore": "Ø105 mm",
+          "Control System": "FANUC 0i-TF",
+          "Turret Type": "12-station servo turret",
+          "Tool Stations": "12 positions",
+          "Live Tooling": "Optional C-axis and milling",
+          "Rapid Traverse (X/Z)": "24 / 30 m/min",
+          "Max Bar Capacity": "Ø65 mm",
+          "Chuck Size": "8\" hydraulic (10\" optional)",
+          "Tailstock": "Programmable hydraulic",
+          "Machine Weight": "5,500 kg",
+          "Power Requirement": "35 kVA",
+          "Coolant System": "Flood coolant with chip conveyor",
+          "Manufacturer Website": "https://www.victortaichung.com",
+          "Key Features": "High rigidity, precision ground gears",
+          "Applications": "Shafts, bushings, fittings, general turning parts"
+        }
+      }
+    }
+  }
+}
